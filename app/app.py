@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "CI/CD Pipeline for Healthcare Application is running successfully"
+    return "CI/CD Pipeline for Healthcare Application is running successfully via Poll SCM"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
